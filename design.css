@@ -1,0 +1,148 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+.back {
+    padding-left: 13%;
+    background-image: url('aaron-burden-6jYoil2GhVk-unsplash.jpg');
+}
+img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    line-height: 2rem;
+    font-size: 1.1rem;
+}
+
+.actions {
+    padding-bottom: 50px;
+}
+
+.heading1 {
+        text-align: center;
+        color: white;
+        font-size: 32px;
+    }
+/* Initial button style */
+.btn-violet {
+    background-color: violet;
+    color: white;
+  }
+  
+  /* Alternate button style */
+  .btn-primary.alternate {
+    background-color: #007bff;
+    color: white;
+  }
+  .clickable{
+    position: relative;
+    top: 3px;
+  }
+  .cik{
+font-size: 10px;
+  }
+.content {
+    font-family: 'ubuntu';
+    
+    margin-top: 2rem;
+    width: 550px;
+    color: white;
+}
+#prevButton1,#prevButton {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+
+  /* Next button styles */
+  #nextButton1, #nextButton {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+
+  /* Hover effect on buttons */
+  #previousButton1:hover, #nextButton1:hover ,#prevButton:hover ,#nextButton:hover{
+    background-color: #0056b3; /* Change color on hover */
+  }
+
+.navpad {
+    padding-top: 4rem;
+    padding-left: 2.5em;
+    padding-bottom: 3rem;
+}
+
+.navbar-nav {
+    padding-left: 29%;
+}
+.dropdown-item{
+    margin-top:0;
+    padding: 10px;
+    background-image:url(aaron-burden-6jYoil2GhVk-unsplash.jpg);
+}
+.dropdown-item:hover{
+    background:#fff  ;
+}
+
+#analytics {
+    margin-top: 50px;
+    color: rgb(7, 177, 189);
+    text-align: center;
+}
+
+.btn-sm1 {
+    position: relative;
+    top: 40%;
+}
+
+.btn-sm2 {
+    padding-bottom: 5%;
+}
+
+.ana-row {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.btn {
+    margin: 2%;
+}
+
+/* small content */
+.content-sm {
+    font-family: 'ubuntu';
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 3.2rem;
+    width: 450px;
+    color: white;
+    background-image: url(aaron-burden-6jYoil2GhVk-unsplash.jpg);
+    border-radius: 10%;
+}
+
+@media (max-width: 768px) {
+    .content-sm {
+        background-size: contain;
+    }
+}
+.chart-container{
+    background-color:white;
+}
+/* span */
+.spa1{
+    font-size: 2rem;
+}
